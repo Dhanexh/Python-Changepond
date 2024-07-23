@@ -1,0 +1,13 @@
+range()
+    number of sequence
+    start -> default 0
+    stop -> excluded
+    step -> default 1
+
+
+while loop
+    is used to execute a block of statements repeatedly untill a given condition is satisfied
+    when the condition becomes false, the line immediately after the loop in the given program is executed
+    while(expression):
+        loop body
+

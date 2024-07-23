@@ -1,0 +1,6 @@
+Dictionary
+    is a collection of key:value pair
+    here, each key is connected to value
+    use a key to access the value
+    key should be unique
+    Mutable object

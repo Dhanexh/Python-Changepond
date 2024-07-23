@@ -1,0 +1,34 @@
+I) Create a menu_card list
+    veg_starter = ['paneer 65','chilly paneer','veg crispy']
+    1) display menu_card
+    2) Add starter in the menu_card
+    3)Update Starter in te menu_card
+    4)remove Starter in the menu_card
+
+    Example:
+    Add : Which starter you want to add in menu?
+    paneer roll
+    ['Paneer 65','Chilly paneer','Veg crispy','Paneer roll']
+    Added Successfully
+
+
+II) Question:Write a program which will take input from the user and Returns(Using function)
+    1)Addition on the list 
+    Example: [2,3,4,5,6,7]  --> 27
+    Note: don't use sum()
+    2)Maximum from the list
+    Example: [2,3,4,5,6,7]  --> 7
+    Note: don't use max()
+ 
+III) Question:Create a simple calculator which will take two input number from the
+    user and give following option
+    1)Addition
+    2) Subtraction
+    3)Multiplication
+    4)Division
+    (you can solve above question using normal function )
+    (also try to solve using dictionary)
+ 
+IV) question:Write a program which will count the frequency of letters of the string
+ 
+V) question:Write a program to check if a string contains any special character

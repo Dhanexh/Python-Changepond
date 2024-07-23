@@ -1,0 +1,11 @@
+Function
+    --> is block of code that performs a specific task
+    --> functions are reusable pieces of programs
+    --> They allow you to give a name to a block of statement, allows to run that block using 
+        specified name anywhere in our program and any number of times this is known as function
+    --> the name given in the function definition are called parameters whereas the values you 
+        supply in the function call are arguments
+    --> you define a function with the def keyword, the write identifier(name) followed by parenthesis and a colon
+
+    Return :
+        -> used to exit from a function and go back to the function caller and return the specific valu eor data item 
