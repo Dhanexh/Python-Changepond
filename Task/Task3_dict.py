@@ -22,19 +22,19 @@ def main():
         print("4. Division")
         print("5. Exit")
 
-        choice = input("\nEnter your choice (1-5): ")
+        option = input("\nEnter your option (1-5): ")
 
-        if choice == '5':
-            print("\nExiting the program...")
+        if option == '5':
+            print("Exiting...")
             break
         
-        if choice.isdigit():
-            choice = int(choice)
-            if choice < 1 or choice > 5:
-                print("Invalid choice. Please enter a number from 1 to 5.")
+        if option.isdigit():
+            option = int(option)
+            if option < 1 or option > 5:
+                print("Invalid option.")
                 continue
 
-            num1 = float(input("\nEnter the first number: "))
+            num1 = float(input("Enter the first number: "))
             num2 = float(input("Enter the second number: "))
 
             operations = {
@@ -44,11 +44,11 @@ def main():
                 4: ("Division", divide(num1, num2))
             }
 
-            operation_name, result = operations[choice]
-            print(f"\n{operation_name} result: {result}")
+            operation_name, result = operations[option]
+            print(f"{operation_name} result: {result}")
 
         else:
-            print("Invalid input. Please enter a number.")
+            print("Invalid input")
 
 if __name__ == "__main__":
     main()

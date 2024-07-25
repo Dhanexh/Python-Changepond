@@ -12,3 +12,11 @@
 -> this function can take any number of argumnets but only one expression,which is evaluated and returned
 -> Syntax
     lamda arguments: expression
+
+
+map() fumction returns a map object(which is an iterator) of the results after applying 
+      the given function to each item of a given iterable(list,tuple etc) or allows you 
+      to process and transform all the items in a iterable without using an explicit for 
+      loop, a technique commonly known as mapping
+      ->Syntax
+            map(function,iterable,[iterable1,iterable2,......])

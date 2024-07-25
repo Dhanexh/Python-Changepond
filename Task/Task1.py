@@ -36,28 +36,32 @@ def remove_starter(starter):
 
 
 def main():
-    print("Select option")
-    print("1.Display Menu Card")
-    print("2.Add to Menu Card")
-    print("3.Update in Menu Card")
-    print("4.Remove from Menu Card")
+    while True:
+        print("Select option")
+        print("1.Display Menu Card")
+        print("2.Add to Menu Card")
+        print("3.Update in Menu Card")
+        print("4.Remove from Menu Card")
 
-    option = input("Enter your choice (1-4): ")
+        option = input("Enter your choice (1-4): ")
 
-    if option == '1':
-        display_menu()
-    elif option == '2':
-        starter = input("Enter the starter to add: ")
-        add_starter(starter)
-    elif option == '3':
-        old_starter = input("Enter old starter: ")
-        new_starter = input("Enter new starter: ")
-        update_starter(old_starter, new_starter)
-    elif option == '4':
-        starter = input("Enter starter to remove: ")
-        remove_starter(starter)
-    else:
-        print("Invalid option.")
+        if option == '1':
+            display_menu()
+        elif option == '2':
+            starter = input("Enter the starter to add: ")
+            add_starter(starter)
+        elif option == '3':
+            old_starter = input("Enter old starter: ")
+            new_starter = input("Enter new starter: ")
+            update_starter(old_starter, new_starter)
+        elif option == '4':
+            starter = input("Enter starter to remove: ")
+            remove_starter(starter)
+        elif option == '5':
+                print("Exiting...")
+                break
+        else:
+            print("Invalid option.")
 
 
 
