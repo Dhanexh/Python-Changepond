@@ -1,0 +1,15 @@
+III) Question:Create a simple calculator which will take two input number from the
+    user and give following option
+    1)Addition
+    2) Subtraction
+    3)Multiplication
+    4)Division
+    (you can solve above question using normal function )
+    (also try to solve using dictionary)
+ 
+IV) question:Write a program which will count the frequency of letters of the string
+ 
+V) question:Write a program to check if a string contains any special character
+
+------------------------------------------------------------------------------------------Dhanesh
+Dhanesh@gmail.com
