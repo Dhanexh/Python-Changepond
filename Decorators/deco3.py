@@ -4,10 +4,18 @@ def Outer():
 
     def Inner():
         print('Inside Inner')
+        def ir():
+            print('Inside Inner')
+        return ir
     print('Inner:',id(Inner))
 
     return Inner
 
-Result = Outer()
-print('Result:',id(Result))
-Result()
+Outer()()()
+
+
+
+# print('Result:',id(Result))
+
+
+# Result()
