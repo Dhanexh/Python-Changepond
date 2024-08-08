@@ -14,12 +14,14 @@ class BankAccount:
     ROI = 10.5
 
     def __init__(self):
-        self.Name = ""
-        self.Amount = 0
-
-    def Create(self):
         self.Name = input("Enter Name: ")
         self.Amount = int(input("Enter Amount: "))
+
+    
+    @staticmethod
+    def DisplayKYCInfo(x,y):
+        print('Aadhar.no is :',x)
+        print('Pan.no is :',y)
 
     def Deposit(self):
         value = int(input("Enter Deposit Amount: "))
@@ -40,10 +42,11 @@ class BankAccount:
         print("Amount:",self.Amount)
 
 
+
 Obj1 = BankAccount()
-Obj1.Create()
 Obj1.Deposit()
 Obj1.Withdraw()
-Obj1.CalculateInterest()
+Obj1.CalculateInterest() 
 Obj1.Display()
+BankAccount.DisplayKYCInfo(123456789090,"GQB67FG56")
 
